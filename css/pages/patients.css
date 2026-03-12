@@ -1,0 +1,82 @@
+.page-patients {
+  padding: var(--sp-6);
+}
+
+.patients-search-wrap {
+  margin-bottom: var(--sp-6);
+}
+
+.patients-search {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+  padding: var(--sp-3) var(--sp-4);
+  background: var(--bg-mid);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+}
+
+.patients-search i {
+  width: 20px;
+  height: 20px;
+  color: var(--text-muted);
+  flex-shrink: 0;
+}
+
+.patients-search input {
+  flex: 1;
+  font-size: var(--text-md);
+  color: var(--text-primary);
+}
+
+.patients-search input::placeholder {
+  color: var(--text-muted);
+}
+
+.patients-section {
+  margin-bottom: var(--sp-6);
+}
+
+.patients-section h3 {
+  font-size: var(--text-lg);
+  font-weight: 600;
+  margin-bottom: var(--sp-3);
+}
+
+.patients-table-wrap {
+  background: var(--bg-mid);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+
+.alpha-filter {
+  display: flex;
+  gap: var(--sp-2);
+  margin-bottom: var(--sp-4);
+  flex-wrap: wrap;
+}
+
+.alpha-btn {
+  padding: var(--sp-1) var(--sp-2);
+  border-radius: var(--radius-sm);
+  font-size: var(--text-sm);
+  font-weight: 500;
+  color: var(--text-secondary);
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  cursor: pointer;
+  min-width: 36px;
+  text-align: center;
+  transition: all var(--transition-fast);
+}
+
+.alpha-btn:hover {
+  border-color: var(--text-muted);
+}
+
+.alpha-btn.active {
+  background: var(--accent-subtle);
+  border-color: var(--accent-border);
+  color: var(--accent);
+}

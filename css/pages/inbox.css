@@ -1,0 +1,74 @@
+.page-inbox {
+  height: 100%;
+}
+
+.inbox-bulk-actions {
+  padding: var(--sp-3) var(--sp-4);
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+}
+
+.inbox-detail-header {
+  margin-bottom: var(--sp-4);
+  padding-bottom: var(--sp-4);
+  border-bottom: 1px solid var(--border);
+}
+
+.inbox-detail-header .detail-patient {
+  font-size: var(--text-lg);
+  font-weight: 600;
+  margin-bottom: var(--sp-1);
+}
+
+.inbox-detail-header .detail-subject {
+  font-size: var(--text-md);
+  color: var(--text-secondary);
+  margin-bottom: var(--sp-2);
+}
+
+.inbox-detail-header .detail-meta {
+  font-size: var(--text-sm);
+  color: var(--text-muted);
+  font-family: var(--font-data);
+}
+
+.inbox-detail-body {
+  font-size: var(--text-md);
+  color: var(--text-secondary);
+  line-height: 1.7;
+  margin-bottom: var(--sp-6);
+}
+
+.inbox-detail-actions {
+  display: flex;
+  gap: var(--sp-3);
+  flex-wrap: wrap;
+}
+
+.bulk-sign-section {
+  padding: var(--sp-4);
+}
+
+.bulk-sign-section .bulk-item {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+  padding: var(--sp-2) 0;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.bulk-sign-section .bulk-item label {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+  cursor: pointer;
+  flex: 1;
+}
+
+.bulk-sign-section .bulk-item .bulk-values {
+  font-family: var(--font-data);
+  font-size: var(--text-sm);
+  color: var(--text-muted);
+}

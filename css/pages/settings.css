@@ -1,0 +1,64 @@
+.page-settings {
+  height: 100%;
+}
+
+.settings-section-title {
+  font-size: var(--text-lg);
+  font-weight: 600;
+  margin-bottom: var(--sp-4);
+  color: var(--text-primary);
+}
+
+.settings-group {
+  margin-bottom: var(--sp-6);
+}
+
+.settings-group-label {
+  font-size: var(--text-sm);
+  font-weight: 500;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: var(--sp-3);
+}
+
+.setting-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--sp-3) 0;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.setting-row:last-child {
+  border-bottom: none;
+}
+
+.setting-info {
+  flex: 1;
+}
+
+.setting-label {
+  font-size: var(--text-md);
+  font-weight: 500;
+  color: var(--text-primary);
+}
+
+.setting-desc {
+  font-size: var(--text-sm);
+  color: var(--text-muted);
+  margin-top: 2px;
+}
+
+.setting-control {
+  margin-left: var(--sp-4);
+}
+
+.setting-control select {
+  padding: var(--sp-1) var(--sp-3);
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  color: var(--text-primary);
+  font-size: var(--text-base);
+}
